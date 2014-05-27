@@ -27,5 +27,13 @@ public class SteampunkMod
     	'A', Items.cookie
     });
     	
+    GameRegistry.addRecipe(new ItemStack(Blocks.brick_block), new Object[] {
+    	"AAA",
+    	"AAA",
+    	"AAA",
+    	'A', Items.string
+    });
+    
+    
     }
 }
