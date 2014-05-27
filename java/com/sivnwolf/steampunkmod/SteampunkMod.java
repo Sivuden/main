@@ -34,6 +34,12 @@ public class SteampunkMod
     	'A', Items.string
     });
     
+    GameRegistry.addRecipe(new ItemStack(Blocks.anvil), new Object[] {
+    	"AAA",
+    	"AAA",
+    	"AAA",
+    	'A', Items.apple
+    });
     
     }
 }
